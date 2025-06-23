@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: html-app
-          image: busybox # Jenkins will update this tag
+          image: edirom/vife-website # Jenkins will update this tag
           ports:
             - containerPort: 80
 ---
